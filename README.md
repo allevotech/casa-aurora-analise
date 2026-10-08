@@ -1,57 +1,92 @@
-# Casa Aurora · Onde o e-commerce está perdendo margem?
+<p align="center">
+  <img src=".github/assets/cover.png" alt="Casa Aurora: faturou mais, lucrou menos. Onde está o vazamento? Projeto de portfólio com Excel, SQL, Power BI ou Metabase e Python." width="100%">
+</p>
 
-<!-- Troque tudo que está entre [colchetes]. Apague os comentários antes de publicar. -->
+<p align="center">
+  <a href="https://colab.research.google.com/github/allevotech/casa-aurora-analise/blob/main/notebooks/01_sql_duckdb.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Abrir o notebook de SQL no Colab"></a>
+  &nbsp;
+  <a href="https://colab.research.google.com/github/allevotech/casa-aurora-analise/blob/main/notebooks/02_python_analysis.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Abrir o notebook de Python no Colab"></a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/dados-sint%C3%A9ticos-00FFBB?labelColor=1A1A1A" alt="Dados sintéticos">
+  <img src="https://img.shields.io/badge/n%C3%ADvel-iniciante-00FFBB?labelColor=1A1A1A" alt="Nível iniciante">
+</p>
 
-> Projeto de portfólio com **dados sintéticos** (fictícios), criados para estudo no Portfolio Blueprint da Allevo Tech. A empresa Casa Aurora não existe.
+# Casa Aurora · projeto-modelo de portfólio em dados
 
-![Dashboard](images/dashboard.png)
+Um projeto completo de análise de dados, do dado sujo à recomendação, para você **fazer, publicar e apresentar**. Faz parte do **Portfolio Blueprint**, bônus da [Formação Analista de Dados da Allevo Tech](https://allevotech.com.br/formacao-em-analista-de-dados/).
 
-**Ferramentas:** Excel · SQL (DuckDB no Google Colab) · [Power BI ou Metabase] · [Python (pandas, matplotlib, SciPy)]
+> A Casa Aurora é um e-commerce **fictício** de casa e decoração. Todos os dados foram gerados por script para estudo. Nenhuma empresa real está aqui.
 
-## 1. Problema
+## O desafio
 
-<!-- 2–3 linhas. A pergunta de negócio, com suas palavras. -->
-Em 2025, a Casa Aurora faturou mais, mas a margem caiu. A diretoria quer saber **[onde está a perda]** e **[o que fazer em 2026]**.
+> *"Em 2025 o faturamento cresceu, mas a margem caiu. Onde estamos perdendo dinheiro e o que fazer em 2026?"*
+> — diretora comercial da Casa Aurora
 
-## 2. Dados
+Você é a pessoa de dados que vai responder. Os números escondem pelo menos 5 achados para você encontrar.
 
-<!-- 3–4 linhas. De onde vêm, o que tem, período. -->
-- 4 tabelas (clientes, produtos, pedidos, itens) · jan–dez/2025 · [7.868] pedidos
-- Base bruta com problemas de qualidade (duplicatas, UF inconsistente, campos em branco) tratada no Excel
-- Dicionário de dados: [`data-dictionary.md`](data-dictionary.md)
+## O que você vai construir
 
-## 3. Análise
+<p align="center">
+  <img src=".github/assets/dashboard-preview.png" alt="Exemplo de dashboard de vendas e margem: cartões de faturamento, pedidos, ticket médio e margem; faturamento e margem mensais; faturamento e margem por categoria; margem por cupom; entrega por região; recompra por canal." width="100%">
+</p>
 
-<!-- 1 linha por etapa: o que você fez, não o que a ferramenta é. -->
-| Etapa | O que eu fiz |
-|---|---|
-| Excel | [Limpei 4 tipos de problema e resumi faturamento e margem por mês e categoria] |
-| SQL | [Respondi 8 perguntas de negócio com JOIN, CTE e funções de janela] → [`notebooks/01_sql_duckdb.ipynb`](notebooks/01_sql_duckdb.ipynb) |
-| Dashboard | [Montei um painel de vendas e margem em Power BI/Metabase] |
-| Python | [Testei se o prazo de entrega afeta a nota (correlação de Spearman)] → [`notebooks/02_python_analysis.ipynb`](notebooks/02_python_analysis.ipynb) |
+<sub>Dashboard de referência (Metabase). O seu pode ser em Power BI ou Metabase, com o seu estilo.</sub>
 
-## 4. Insights
+## O caminho, em 5 etapas
 
-<!-- 3 bullets. Formato: achado → número que prova. -->
-- **[Achado 1]:** [número]
-- **[Achado 2]:** [número]
-- **[Achado 3]:** [número]
+| Etapa | Ferramenta | Você entrega |
+|---|---|---|
+| 1 · Limpar e resumir | Excel ou Google Sheets | Base limpa + tabelas dinâmicas |
+| 2 · Perguntar ao banco | SQL no Google Colab | 8 consultas que respondem perguntas de negócio |
+| 3 · Montar o painel | Power BI ou Metabase | Dashboard de vendas e margem |
+| 4 · Ir além *(opcional)* | Python no Google Colab | Gráficos + um teste estatístico |
+| 5 · Publicar | GitHub + LinkedIn | Este repositório com o **seu** README |
 
-## 5. Resultado e recomendações
+Cerca de 25 minutos por dia, em 21 dias. Os enunciados e o plano dia a dia estão na plataforma da Allevo Tech.
 
-<!-- 3 recomendações acionáveis + uma limitação honesta da análise. -->
-1. [Recomendação 1, ligada ao achado 1]
-2. [Recomendação 2]
-3. [Recomendação 3]
+## Como usar este modelo
 
-**Limitações:** [ex.: dados de um único ano; a simulação de cupom supõe o mesmo volume de pedidos.]
+1. Clique em **Use this template → Create a new repository** (no topo desta página) e crie o seu repositório, **público**.
+2. Abra os notebooks pelos botões **Open in Colab** acima. Não precisa instalar nada.
+3. No fim do projeto, apague este `README.md`, renomeie o [`README-template.md`](README-template.md) para `README.md` e preencha com a sua análise.
+4. Coloque o print do seu dashboard em `images/dashboard.png`.
 
-## Como reproduzir
+## O que tem aqui
 
-- Notebooks no Google Colab (não precisa instalar nada):
-  [SQL](https://colab.research.google.com/github/[SEU-USUARIO]/casa-aurora-analise/blob/main/notebooks/01_sql_duckdb.ipynb) ·
-  [Python](https://colab.research.google.com/github/[SEU-USUARIO]/casa-aurora-analise/blob/main/notebooks/02_python_analysis.ipynb)
-- Metabase (opcional): veja `docker-compose.yml`. Copie `.env.example` para `.env` e rode `docker compose up -d`.
+```
+casa-aurora-analise/
+├── data/
+│   ├── raw/casa_aurora_raw.xlsx   ← etapa 1: export "do sistema", com sujeira de propósito
+│   └── clean/*.csv                ← etapas 2 a 4: 4 tabelas limpas
+├── notebooks/                     ← SQL e Python, prontos para o Colab
+├── sql/                           ← salve aqui as suas consultas
+├── dashboard/metabase/            ← script que carrega os dados no PostgreSQL
+├── images/                        ← print e GIF do seu dashboard
+├── data-dictionary.md             ← o que significa cada coluna
+├── README-template.md             ← o modelo do SEU README
+└── docker-compose.yml             ← Metabase + PostgreSQL com um comando (opcional)
+```
+
+| Tabela | Linhas | O que é |
+|---|---|---|
+| `customers` | 5.000 | Clientes, UF, região, canal de aquisição |
+| `products` | 120 | Catálogo com categoria e custo |
+| `orders` | 7.868 | Pedidos de 2025: canal, cupom, prazo, status, nota |
+| `order_items` | 19.554 | Itens de cada pedido: quantidade, preço, desconto |
+
+Detalhes no [dicionário de dados](data-dictionary.md).
+
+## Metabase no seu computador (opcional)
+
+Para quem não usa Windows (o Power BI Desktop só roda nele):
+
+```bash
+cp .env.example .env      # troque a senha dentro do arquivo
+docker compose up -d      # abre o Metabase em http://localhost:3000
+```
+
+No Metabase, conecte o banco **PostgreSQL**: host `db`, porta `5432`, banco `casa_aurora`, usuário `aurora` e a senha do seu `.env`.
 
 ---
-[Seu nome] · [LinkedIn] · Feito no Portfolio Blueprint · Allevo Tech
+
+<p align="center"><sub>Portfolio Blueprint · Kit de Carreira em Dados · <a href="https://allevotech.com.br">Allevo Tech</a> · dados sintéticos para estudo</sub></p>
