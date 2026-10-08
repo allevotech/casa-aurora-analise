@@ -1,0 +1,26 @@
+# Metabase + PostgreSQL com os dados da Casa Aurora já carregados.
+# Uso (na pasta do repositório, com Docker Desktop aberto):
+#   1. copie .env.example para .env e troque a senha
+#   2. docker compose up -d
+#   3. abra http://localhost:3000 e conecte o banco (host: db, porta: 5432)
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: casa_aurora
+      POSTGRES_USER: aurora
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?crie o arquivo .env a partir do .env.example}
+    volumes:
+      - ./data/clean:/data:ro
+      - ./dashboard/metabase/schema_postgres.sql:/docker-entrypoint-initdb.d/01_schema.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U aurora -d casa_aurora"]
+      interval: 5s
+      retries: 20
+  metabase:
+    image: metabase/metabase:latest
+    ports:
+      - "127.0.0.1:3000:3000"
+    depends_on:
+      db:
+        condition: service_healthy
