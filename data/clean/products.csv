@@ -1,0 +1,121 @@
+product_id,product_name,category,unit_cost
+P001,Jogo de Panelas Aurora,Cozinha,24.37
+P002,Frigideira Antiaderente Clássico,Cozinha,68.28
+P003,Faqueiro Inox Nórdico,Cozinha,120.63
+P004,Cafeteira Essencial,Cozinha,71.01
+P005,Liquidificador Premium,Cozinha,62.07
+P006,Air Fryer Compacto,Cozinha,116.53
+P007,Jogo de Copos Bambu,Cozinha,96.56
+P008,Aparelho de Jantar Off-White,Cozinha,65.65
+P009,Tábua de Corte Aurora,Cozinha,150.66
+P010,Conjunto de Potes Clássico,Cozinha,91.04
+P011,Jogo de Panelas Essencial,Cozinha,43.52
+P012,Frigideira Antiaderente Premium,Cozinha,45.89
+P013,Faqueiro Inox Compacto,Cozinha,61.32
+P014,Cafeteira Bambu,Cozinha,87.81
+P015,Liquidificador Off-White,Cozinha,85.45
+P016,Air Fryer Aurora,Cozinha,124.91
+P017,Jogo de Copos Clássico,Cozinha,70.72
+P018,Aparelho de Jantar Nórdico,Cozinha,75.47
+P019,Tábua de Corte Essencial,Cozinha,94.81
+P020,Conjunto de Potes Premium,Cozinha,125.58
+P021,Jogo de Panelas Bambu,Cozinha,50.7
+P022,Frigideira Antiaderente Off-White,Cozinha,46.95
+P023,Faqueiro Inox Aurora,Cozinha,98.52
+P024,Cafeteira Clássico,Cozinha,143.61
+P025,Liquidificador Nórdico,Cozinha,60.71
+P026,Air Fryer Essencial,Cozinha,118.96
+P027,Jogo de Copos Premium,Cozinha,112.75
+P028,Aparelho de Jantar Compacto,Cozinha,142.85
+P029,Tábua de Corte Bambu,Cozinha,111.39
+P030,Conjunto de Potes Off-White,Cozinha,107.53
+P031,Jogo de Lençol Aurora,"Cama, Mesa e Banho",47.49
+P032,Edredom Clássico,"Cama, Mesa e Banho",85.38
+P033,Toalha de Banho Nórdico,"Cama, Mesa e Banho",28.59
+P034,Travesseiro Essencial,"Cama, Mesa e Banho",90.27
+P035,Toalha de Mesa Premium,"Cama, Mesa e Banho",97.57
+P036,Cobertor Compacto,"Cama, Mesa e Banho",35.35
+P037,Jogo de Lençol Off-White,"Cama, Mesa e Banho",33.02
+P038,Edredom Aurora,"Cama, Mesa e Banho",31.37
+P039,Toalha de Banho Clássico,"Cama, Mesa e Banho",103.27
+P040,Travesseiro Nórdico,"Cama, Mesa e Banho",96.3
+P041,Toalha de Mesa Essencial,"Cama, Mesa e Banho",61.33
+P042,Cobertor Premium,"Cama, Mesa e Banho",59.85
+P043,Jogo de Lençol Bambu,"Cama, Mesa e Banho",29.14
+P044,Edredom Off-White,"Cama, Mesa e Banho",53.73
+P045,Toalha de Banho Aurora,"Cama, Mesa e Banho",43.86
+P046,Travesseiro Clássico,"Cama, Mesa e Banho",20.62
+P047,Toalha de Mesa Nórdico,"Cama, Mesa e Banho",74.07
+P048,Cobertor Essencial,"Cama, Mesa e Banho",54.45
+P049,Jogo de Lençol Compacto,"Cama, Mesa e Banho",91.04
+P050,Edredom Bambu,"Cama, Mesa e Banho",53.83
+P051,Toalha de Banho Off-White,"Cama, Mesa e Banho",69.74
+P052,Travesseiro Aurora,"Cama, Mesa e Banho",64.99
+P053,Toalha de Mesa Clássico,"Cama, Mesa e Banho",48.0
+P054,Cobertor Nórdico,"Cama, Mesa e Banho",111.52
+P055,Jogo de Lençol Premium,"Cama, Mesa e Banho",68.82
+P056,Vaso Cerâmica Aurora,Decoração,75.37
+P057,Quadro Decorativo Clássico,Decoração,91.23
+P058,Espelho Redondo Nórdico,Decoração,115.84
+P059,Almofada Essencial,Decoração,106.16
+P060,Tapete Premium,Decoração,122.46
+P061,Cesto de Fibra Compacto,Decoração,100.9
+P062,Vaso Cerâmica Off-White,Decoração,29.93
+P063,Quadro Decorativo Aurora,Decoração,123.48
+P064,Espelho Redondo Clássico,Decoração,58.46
+P065,Almofada Nórdico,Decoração,19.15
+P066,Tapete Essencial,Decoração,98.97
+P067,Cesto de Fibra Premium,Decoração,28.12
+P068,Vaso Cerâmica Bambu,Decoração,69.68
+P069,Quadro Decorativo Off-White,Decoração,109.04
+P070,Espelho Redondo Aurora,Decoração,57.38
+P071,Almofada Clássico,Decoração,18.32
+P072,Tapete Nórdico,Decoração,20.44
+P073,Cesto de Fibra Essencial,Decoração,102.48
+P074,Vaso Cerâmica Compacto,Decoração,111.34
+P075,Quadro Decorativo Bambu,Decoração,43.25
+P076,Espelho Redondo Off-White,Decoração,79.85
+P077,Almofada Aurora,Decoração,120.67
+P078,Tapete Clássico,Decoração,81.75
+P079,Cesto de Fibra Nórdico,Decoração,90.74
+P080,Vaso Cerâmica Premium,Decoração,62.04
+P081,Caixa Organizadora Aurora,Organização,10.16
+P082,Prateleira Clássico,Organização,55.06
+P083,Cabideiro Nórdico,Organização,54.1
+P084,Organizador de Gaveta Essencial,Organização,9.42
+P085,Sapateira Premium,Organização,18.24
+P086,Caixa Organizadora Bambu,Organização,46.25
+P087,Prateleira Off-White,Organização,40.97
+P088,Cabideiro Aurora,Organização,39.68
+P089,Organizador de Gaveta Clássico,Organização,28.12
+P090,Sapateira Nórdico,Organização,32.97
+P091,Caixa Organizadora Premium,Organização,28.23
+P092,Prateleira Compacto,Organização,19.6
+P093,Cabideiro Bambu,Organização,17.29
+P094,Organizador de Gaveta Off-White,Organização,43.36
+P095,Sapateira Aurora,Organização,48.45
+P096,Caixa Organizadora Nórdico,Organização,51.53
+P097,Prateleira Essencial,Organização,13.11
+P098,Cabideiro Premium,Organização,44.09
+P099,Organizador de Gaveta Compacto,Organização,26.34
+P100,Sapateira Bambu,Organização,58.9
+P101,Luminária de Mesa Aurora,Iluminação,117.75
+P102,Abajur Clássico,Iluminação,140.52
+P103,Pendente Nórdico,Iluminação,134.34
+P104,Fita LED Essencial,Iluminação,149.03
+P105,Luminária de Chão Premium,Iluminação,46.98
+P106,Luminária de Mesa Bambu,Iluminação,43.82
+P107,Abajur Off-White,Iluminação,100.29
+P108,Pendente Aurora,Iluminação,38.82
+P109,Fita LED Clássico,Iluminação,105.6
+P110,Luminária de Chão Nórdico,Iluminação,115.99
+P111,Luminária de Mesa Premium,Iluminação,78.83
+P112,Abajur Compacto,Iluminação,75.87
+P113,Pendente Bambu,Iluminação,125.14
+P114,Fita LED Off-White,Iluminação,128.08
+P115,Luminária de Chão Aurora,Iluminação,143.3
+P116,Luminária de Mesa Nórdico,Iluminação,108.8
+P117,Abajur Essencial,Iluminação,141.24
+P118,Pendente Premium,Iluminação,100.77
+P119,Fita LED Compacto,Iluminação,34.1
+P120,Luminária de Chão Bambu,Iluminação,91.35
