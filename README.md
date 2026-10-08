@@ -3,9 +3,9 @@
 </p>
 
 <p align="center">
-  <a href="https://colab.research.google.com/github/allevotech/casa-aurora-analise/blob/main/notebooks/01_sql_duckdb.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Abrir o notebook de SQL no Colab"></a>
+  <a href="https://colab.research.google.com/github/allevotech/casa-aurora-analise/blob/main/notebooks/01_sql_duckdb.ipynb"><img src="https://img.shields.io/badge/SQL-abrir_no_Colab-F9AB00?logo=googlecolab&logoColor=F9AB00&labelColor=1A1A1A" alt="Abrir o notebook de SQL no Google Colab"></a>
   &nbsp;
-  <a href="https://colab.research.google.com/github/allevotech/casa-aurora-analise/blob/main/notebooks/02_python_analysis.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Abrir o notebook de Python no Colab"></a>
+  <a href="https://colab.research.google.com/github/allevotech/casa-aurora-analise/blob/main/notebooks/02_python_analysis.ipynb"><img src="https://img.shields.io/badge/Python-abrir_no_Colab-F9AB00?logo=googlecolab&logoColor=F9AB00&labelColor=1A1A1A" alt="Abrir o notebook de Python no Google Colab"></a>
   &nbsp;
   <img src="https://img.shields.io/badge/dados-sint%C3%A9ticos-00FFBB?labelColor=1A1A1A" alt="Dados sintéticos">
   <img src="https://img.shields.io/badge/n%C3%ADvel-iniciante-00FFBB?labelColor=1A1A1A" alt="Nível iniciante">
@@ -47,7 +47,7 @@ Cerca de 25 minutos por dia, em 21 dias. Os enunciados e o plano dia a dia estã
 ## Como usar este modelo
 
 1. Clique em **Use this template → Create a new repository** (no topo desta página) e crie o seu repositório, **público**.
-2. Abra os notebooks pelos botões **Open in Colab** acima. Não precisa instalar nada.
+2. Abra os notebooks pelos botões **abrir no Colab** acima. Não precisa instalar nada.
 3. No fim do projeto, apague este `README.md`, renomeie o [`README-template.md`](README-template.md) para `README.md` e preencha com a sua análise.
 4. Coloque o print do seu dashboard em `images/dashboard.png`.
 
